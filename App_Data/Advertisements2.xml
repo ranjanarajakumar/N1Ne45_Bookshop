@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Advertisements>
+  <Ad>
+    <ImageUrl>~/images/images/9780062498533.jpg</ImageUrl>
+    <AlternateText>The Hate U Give</AlternateText>
+    <Impressions>40</Impressions>
+  </Ad>
+  <Ad>
+    <ImageUrl>~/images/images/9780262035613.jpg</ImageUrl>
+    <AlternateText>Deep Learning</AlternateText>
+    <Impressions>20</Impressions>
+  </Ad>
+  <Ad>
+    <ImageUrl>~/images/images/9780307279187.jpg</ImageUrl>
+    <AlternateText>Born to Run</AlternateText>
+    <Impressions>40</Impressions>
+  </Ad>
+</Advertisements>

@@ -1,0 +1,72 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPageForAdmin.master.cs" Inherits="Admin_MasterPageForAdmin" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <!--Meta Setting-->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Welcome to N1Ne45 Bookshop</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="../vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link href="../css/simple-sidebar.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <div id="wrapper">
+
+        <!-- Sidebar -->
+        <div id="sidebar-wrapper">
+            <ul class="sidebar-nav">
+                <li class="sidebar-brand">
+                     <a href="../Default.aspx">N1Ne45 HomePage</a>
+                </li>
+                <li>
+                    <a href="../RegisteredUsers/AdvanceSearch.aspx">Advance Search</a>
+                </li>
+                <li>
+                    <a href="BookInventory.aspx">Book Inventory </a>
+                </li>
+                <li>
+                    <a href="UpdateDiscount.aspx">Update Discount</a>
+                </li>
+         
+                <li>
+                    <a href="Admin.aspx">Admin</a>
+                </li>
+            </ul>
+        </div>
+        <!-- Page Content -->
+        <div id="page-content-wrapper">
+            <div class="container-fluid">
+                <a href="#menu-toggle" class="btn btn-secondary" id="menu-toggle">Toggle Menu</a>
+                <form id="form1" runat="server">
+                    <div>
+                        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server"></asp:ContentPlaceHolder>
+                    </div>
+                </form>            
+            </div>
+        </div>
+      <!-- /#page-content-wrapper -->
+     </div>
+     
+    <!-- Bootstrap core JavaScript -->
+    <script src="../vendor/jquery/jquery.min.js"></script>
+    <script src="../vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Menu Toggle Script -->
+    <script>
+    $("#menu-toggle").click(function(e) {
+        e.preventDefault();
+        $("#wrapper").toggleClass("toggled");
+    });
+    </script>
+</body>
+</html>

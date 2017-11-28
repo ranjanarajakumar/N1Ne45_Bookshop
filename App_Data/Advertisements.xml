@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Advertisements>
+  <Ad>
+    <ImageUrl>~/images/images/9780060555665.jpg</ImageUrl>
+    <AlternateText>The Intelligent Investor</AlternateText>
+    <Impressions>40</Impressions>    
+  </Ad>
+  <Ad>
+    <ImageUrl>~/images/images/9780062377210.jpg</ImageUrl>
+    <AlternateText>Letterman: The Last Giant of Late Night</AlternateText>
+    <Impressions>20</Impressions>
+  </Ad>
+  <Ad>
+    <ImageUrl>~/images/images/9780062390851.jpg</ImageUrl>
+    <AlternateText>Everybody Lies</AlternateText>
+    <Impressions>40</Impressions>    
+  </Ad>
+</Advertisements>

@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Advertisements>
+  <Ad>
+    <ImageUrl>~/images/images/9780316468978.jpg</ImageUrl>
+    <AlternateText>The Most Beautiful: My Life with Prince</AlternateText>
+    <Impressions>40</Impressions>
+  </Ad>
+  <Ad>
+    <ImageUrl>~/images/images/9780399588174.jpg</ImageUrl>
+    <AlternateText>Born a Crime: Stories from a South African Childhood</AlternateText>
+    <Impressions>20</Impressions>
+  </Ad>
+  <Ad>
+    <ImageUrl>~/images/images/9780385376716.jpg</ImageUrl>
+    <AlternateText>The Wonderful Things You Will Be</AlternateText>
+    <Impressions>40</Impressions>
+  </Ad>
+</Advertisements>
